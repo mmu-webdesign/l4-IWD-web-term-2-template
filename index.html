@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Add your meta description" />
+    <!-- meta tags for Internet Explorer and mobile devices -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>A website</title>
+    <!-- add your stylesheet and any other styling code, e.g. google fonts -->
+    <link rel="stylesheet" href="layout.css" /> </head>
+
+<body>
+    <main>
+        <nav class="page-nav">
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#work">Work Experience</a></li>
+                <li><a href="#images">Image Gallery</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+        <header class="page-header">
+            <div class="header-content">
+                <h1>Site title</h1>
+                <p>Site subtitle</p>
+            </div>
+        </header>
+        <section id="about" class="about-me container">
+            <div class="container-content">
+                <h2>About Me</h2>
+                <div class="content">
+                    <!-- add your 150 word maximum About Me content here -->
+                </div>
+            </div>
+        </section>
+        <section id="work" class="work-experience container">
+            <div class="container-content">
+                <h2>Work Experience</h2>
+                <div class="content">
+                    <!-- add your 200 word maximum work experience content here -->
+                </div>
+            </div>
+        </section>
+        <section id="images" class="image-gallery container">
+            <div class="container-content">
+                <h2>Image Gallery</h2>
+                <div class="content">
+                    <div class="an-image">
+                        <!-- add image one here with 150 word maximum caption -->
+                        <div class="image-caption"> </div>
+                    </div>
+                    <div class="an-image">
+                        <!-- add image two here with 150 word maximum caption -->
+                        <div class="image-caption"> </div>
+                    </div>
+                    <div class="an-image">
+                        <!-- add image three here with 150 word maximum caption -->
+                        <div class="image-caption"> </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact-me container">
+            <div class="container-content">
+                <h2>Contact Me</h2>
+                <div class="content">
+                    <form action="https://formspree.io/[your email address goes here]" method="post">
+                        <p>
+                            <label for="contact-name">Your Name</label>
+                            <input id="contact-name" type="text" name="contact-name" />
+                        </p>
+                        <p>
+                            <label for="contact-email">Your email address</label>
+                            <input id="contact-email" type="email" name="contact-email" /> </p>
+                        <p>
+                            <label for="contact-phone">Your phone number</label>
+                            <input id="contact-phone" type="tel" name="contact-phone" /> </p>
+                        <p>
+                            <label for="contact-message">Your message</label>
+                            <textarea id="contact-message" name="contact-message" rows="5"> </textarea>
+                        </p>
+                        <p>
+                            <input type="submit" value="send my message" /> </p>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer class="page-footer">
+            <div class="footer-content">
+                <p> <span class="footer-text">&copy; <a href="http://www.mmu.ac.uk/" title="MMU homepage">MMU 2017</a>
+    </span> <span class="footer-separator">&middot;</span> <span class="footer-text">Your name</span> <span class="footer-separator">&middot;</span> <span class="footer-text">This is student coursework</span> <span class="footer-separator">&middot;</span> <span class="footer-text">Tutor <a href="mailto:r.eskins@mmu.ac.uk">Richard Eskins</a></span> <span class="footer-separator">&middot;</span> <span class="footer-text">
+     <a href="http://validator.w3.org/check?uri=referer" title="W3C HTML Validation Service" >Valid HTML</a>
+        </span> </p>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>
