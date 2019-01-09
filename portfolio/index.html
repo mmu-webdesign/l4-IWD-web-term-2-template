@@ -13,12 +13,13 @@
     <meta name="description" content="Add your meta description here">
     
     <!-- your stylesheet and any other styling code, e.g. google fonts -->
-    <link rel="stylesheet" href="layout.css"> 
+    <link rel="stylesheet" href="css/layout.css"> 
     
 </head>
 
 <body>
     <main>
+        
         <nav class="page-nav">
             <ul>
                 <li><a href="#about">About Me</a></li>
@@ -27,51 +28,59 @@
                 <li><a href="#contact">Contact Me</a></li>
             </ul>
         </nav>
+        
         <header class="page-header">
             <div class="header-content">
                 <h1>Site title</h1>
                 <p>Site subtitle</p>
             </div>
         </header>
+        
         <section id="about" class="about-me container">
             <div class="container-content">
+                
                 <h2>About Me</h2>
-                <div class="content">
-                    <!-- add your 150 word maximum About Me content here -->
-                </div>
+                <!-- add your 150 word maximum About Me content here -->
+                
             </div>
         </section>
+        
         <section id="work" class="work-experience container">
             <div class="container-content">
+                
                 <h2>Work Experience</h2>
-                <div class="content">
-                    <!-- add your 200 word maximum work experience content here -->
-                </div>
+                <!-- add your 200 word maximum work experience content here -->
+
             </div>
         </section>
+        
         <section id="images" class="image-gallery container">
             <div class="container-content">
                 <h2>Image Gallery</h2>
-                <div class="content">
+                <div class="image-container">
                     <div class="an-image">
                         <!-- add image one here with 150 word maximum caption -->
+                        <img src="https://unsplash.it/600"> <!-- dummy image for illustration -->
                         <div class="image-caption"><p>A caption for your first image.</p></div>
                     </div>
                     <div class="an-image">
                         <!-- add image two here with 150 word maximum caption -->
+                        <img src="https://unsplash.it/600"> <!-- dummy image for illustration -->
                         <div class="image-caption"><p>A caption for your second image.</p></div>
                     </div>
                     <div class="an-image">
                         <!-- add image three here with 150 word maximum caption -->
+                        <img src="https://unsplash.it/600"> <!-- dummy image for illustration -->
                         <div class="image-caption"><p>A caption for your third image.</p></div>
                     </div>
                 </div>
             </div>
         </section>
+        
         <section id="contact" class="contact-me container">
             <div class="container-content">
                 <h2>Contact Me</h2>
-                <div class="content">
+
                     <form action="https://formspree.io/[your email address goes here]" method="post">
                         <p>
                             <label for="contact-name">Your Name</label>
@@ -90,13 +99,13 @@
                         <p>
                             <input type="submit" value="send my message" /> </p>
                     </form>
-                </div>
             </div>
         </section>
+        
         <footer class="page-footer">
             <div class="footer-content">
                 <p> <span class="footer-text">&copy; <a href="http://www.mmu.ac.uk/" title="MMU homepage">MMU 2019</a>
-    </span> <span class="footer-separator">&middot;</span> <span class="footer-text">Your name</span> <span class="footer-separator">&middot;</span> <span class="footer-text">This is student coursework</span> <span class="footer-separator">&middot;</span> <span class="footer-text">Tutor <a href="mailto:r.eskins@mmu.ac.uk">Richard Eskins</a></span> <span class="footer-separator">&middot;</span> <span class="footer-text">
+    </span> <span class="footer-separator">&middot;</span> <span class="footer-text"><a href="pages/style-guide.html">Style guide</a></span> <span class="footer-separator">&middot;</span> <span class="footer-text">This is student coursework</span> <span class="footer-separator">&middot;</span> <span class="footer-text">Tutor <a href="mailto:r.eskins@mmu.ac.uk">Richard Eskins</a></span> <span class="footer-separator">&middot;</span> <span class="footer-text">
      <a href="http://validator.w3.org/check?uri=referer" title="W3C HTML Validation Service" >Valid HTML</a>
         </span> </p>
             </div>
