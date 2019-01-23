@@ -1,4 +1,9 @@
 # Level 4 responsive web design template
+
+** Use this template if you are taking the Introduction to Web Development unit**
+
+If you are taking Web Page Development, [use the l4-rwd-template-components files](https://github.com/mmu-webdesign/l4-rwd-template-components).
+
 This repository creates the folders and files you will need to follow through the web design and development process.
 
 This single page builds on prior knowledge:
