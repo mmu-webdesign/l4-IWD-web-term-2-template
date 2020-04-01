@@ -6,10 +6,14 @@
 /* Default styling styling for the body.*/
 
 body {
-    font-family: sans-serif;  /* update with Google font, web safe font and generic fallback */
-    font-size: 100%; /* the default browser font size is 16px */
-    line-height: 1 ; /* update to suit your type choices */
-    color: #000;  /* base text colour - update to suit your design */
+    font-family: sans-serif;
+    /* update with Google font, web safe font and generic fallback */
+    font-size: 100%;
+    /* the default browser font size is 16px */
+    line-height: 1;
+    /* update to suit your type choices */
+    color: #000;
+    /* base text colour - update to suit your design */
 }
 
 /* Improves default font styles for forms  */
@@ -27,6 +31,34 @@ textarea {
 
 /* element styling (e.g. standard p, h1, h2, a, etc) */
 
+h1,
+h2 {
+    font-weight: normal;
+    font-family: sans-serif;
+    /* Google font, web safe font, generic fallback */
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
 
 /* navigation (using flexbox) */
 
